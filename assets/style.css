@@ -116,11 +116,6 @@ img:hover {
     }
 }
 
-.text_mini {
-    font-size: 10px;
-    opacity: 0.5;
-}
-
 .wrapper {
     height: 10vh;
     display: flex;
