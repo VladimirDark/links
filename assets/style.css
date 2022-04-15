@@ -8,12 +8,12 @@
     width: 250px;
     height: 50px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-color: #111;
+    background-color: #1f1f1f;
 }
 
 .discord_btn:hover {
-    border-radius: 1px;
-    background-color: #1f1f1f;
+    border-radius: 4px;
+    background-color: #333;
     font-size: 15px;
     color: #7289da;
 }
@@ -28,12 +28,12 @@
     width: 250px;
     height: 50px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-color: #111;
+    background-color: #1f1f1f;
 }
 
 .steam_btn:hover {
-    border-radius: 1px;
-    background-color: #1f1f1f;
+    border-radius: 4px;
+    background-color: #333;
     font-size: 15px;
     color: #2a475e;
 }
@@ -48,12 +48,12 @@
     width: 250px;
     height: 50px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-color: #111;
+    background-color: #1f1f1f;
 }
 
 .rblx_btn:hover {
-    border-radius: 1px;
-    background-color: #1f1f1f;
+    border-radius: 4px;
+    background-color: #333;
     font-size: 15px;
     color: #8f0000;
 }
@@ -68,12 +68,12 @@
     width: 250px;
     height: 50px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-color: #111;
+    background-color: #1f1f1f;
 }
 
 .ytub_btn:hover {
-    border-radius: 1px;
-    background-color: #1f1f1f;
+    border-radius: 4px;
+    background-color: #333;
     font-size: 15px;
     color: #c20000;
 }
