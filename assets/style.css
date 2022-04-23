@@ -78,12 +78,12 @@
     color: #c20000;
 }
 
-img {
+.ten {
     transition: .4s;
     border-radius: 50%;
 }
 
-img:hover {
+.ten:hover {
     border-radius: 10%;
 }
 
@@ -227,7 +227,7 @@ img:hover {
     text-shadow: -1px 0 red;
     top: 0;
     color: white;
-    background: black;
+    background: Black;
     overflow: hidden;
     clip: rect(0, 900px, 0, 0);
     animation: noise-anim 2s infinite linear alternate-reverse;
@@ -306,7 +306,7 @@ img:hover {
     text-shadow: 1px 0 blue;
     top: 0;
     color: white;
-    background: black;
+    background: Black;
     overflow: hidden;
     clip: rect(0, 900px, 0, 0);
     animation: noise-anim-2 3s infinite linear alternate-reverse;
