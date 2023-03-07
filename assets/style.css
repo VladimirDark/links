@@ -11,8 +11,37 @@
     background-color: #1f1f1f;
 }
 
+.test {
+    background-color: black;
+    border-radius: 10px;
+    display: flex;
+    width: 500px;
+    height: 500px;
+}
+
+.test1 {
+    background-color: red;
+    border-radius: 10px;
+    animation: load 3s forwards cubic-bezier(0,0,0,0);
+    width: 5px;
+    height: 20px;
+}
+
+@keyframes load {
+    0%{
+        width: 0%;
+    }
+    50%{
+        width: 80%;
+    }
+    100%{
+        width: 100%;
+    }
+}
+
 .discord_btn:hover {
-    border-radius: 4px;
+    transform: translateY(-4px);
+    border-radius: 5px;
     background-color: #333;
     font-size: 15px;
     color: #7289da;
@@ -32,7 +61,8 @@
 }
 
 .steam_btn:hover {
-    border-radius: 4px;
+    transform: translateY(-4px);
+    border-radius: 5px;
     background-color: #333;
     font-size: 15px;
     color: #2a475e;
@@ -52,7 +82,8 @@
 }
 
 .rblx_btn:hover {
-    border-radius: 4px;
+    transform: translateY(-4px);
+    border-radius: 5px;
     background-color: #333;
     font-size: 15px;
     color: #8f0000;
@@ -72,7 +103,8 @@
 }
 
 .ytub_btn:hover {
-    border-radius: 4px;
+    transform: translateY(-4px);
+    border-radius: 5px;
     background-color: #333;
     font-size: 15px;
     color: #c20000;
@@ -95,6 +127,7 @@
     letter-spacing: 4px;
     overflow: hidden;
     background: linear-gradient(90deg, #000, #fff, #000);
+	background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: 80%;
     animation: animate 3s linear infinite;
@@ -311,3 +344,4 @@
     clip: rect(0, 900px, 0, 0);
     animation: noise-anim-2 3s infinite linear alternate-reverse;
 }
+    
